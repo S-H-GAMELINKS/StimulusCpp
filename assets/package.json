@@ -3,6 +3,7 @@
         "build": "webpack --display-error-details"
     },
     "dependencies": {
+        "axios": "^0.18.0",
         "stimulus": "^1.1.1",
         "webpack": "^4.29.5",
         "webpack-cli": "^3.2.3"

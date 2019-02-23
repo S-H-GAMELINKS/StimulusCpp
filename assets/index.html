@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <div data-controller="chat">
+        <div data-controller="chat" data-chat-url="/messages" data-chat-refresh-interval="10">
+            <div data-target="chat.response"></div>
             <div data-target="chat.chats"></div> 
             <input data-target="chat.content">
             <button data-action="click->chat#chat">add</button>
