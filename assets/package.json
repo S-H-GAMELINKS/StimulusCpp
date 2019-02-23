@@ -1,4 +1,7 @@
 {
+    "scripts": {
+        "build": "webpack --display-error-details"
+    },
     "dependencies": {
         "stimulus": "^1.1.1"
     }
