@@ -5,16 +5,8 @@ export default class extends Controller {
         return ["chats", "content"];
     }
 
-    connect() {
-        this.update();
-    }
-
     chat() {
         this.chatsTarget.innerHTML += `<p>${this.contentTarget.value}</p>`;
-        this,update();
-    }
-
-    update() {
-        window.location.reload();
+        this.contentTarget.value = ""
     }
 }
